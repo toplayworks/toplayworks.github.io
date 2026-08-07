@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>toplay-works</title>
+<style>
+:root {
+  --ink: #1a1c1f;
+  --muted: #5b6169;
+  --rule: #e2e5ea;
+  --accent: #4e86f3;
+  --bg: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e6e8ea;
+    --muted: #a3aab3;
+    --rule: #2b3038;
+    --accent: #7ba7f7;
+    --bg: #14161a;
+  }
+}
+body {
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 5rem;
+  max-width: 40rem;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN",
+    "Yu Gothic", Meiryo, sans-serif;
+  line-height: 1.8;
+}
+h1 { font-size: 1.5rem; margin: 0 0 2rem; }
+h2 { font-size: 1.1rem; margin: 2.5rem 0 0.5rem; }
+a { color: var(--accent); }
+.app {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-top: 1px solid var(--rule);
+}
+.app img { width: 56px; height: 56px; border-radius: 14px; flex: none; }
+.app p { margin: 0.2rem 0 0; color: var(--muted); font-size: 0.9rem; }
+.app h3 { margin: 0; font-size: 1rem; }
+footer { margin-top: 3.5rem; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+
+<h1>toplay-works</h1>
+
+<h2>アプリ</h2>
+
+<div class="app">
+  <img src="hiyomi/icon.png" alt="">
+  <div>
+    <h3>Hiyomi（日読み）</h3>
+    <p>フィードと、日本の天気。 &middot;
+       <a href="hiyomi/">プライバシーポリシー</a></p>
+  </div>
+</div>
+
+<footer>
+  お問い合わせ: <a href="mailto:toplayworksgm@gmail.com">toplayworksgm@gmail.com</a>
+</footer>
+
+</body>
+</html>
