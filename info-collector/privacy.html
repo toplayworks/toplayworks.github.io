@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー - info-collector</title>
+<style>body{font-family:system-ui,sans-serif;max-width:44rem;margin:2rem auto;padding:0 1rem;line-height:1.7}
+h1{font-size:1.4rem}h2{font-size:1.05rem;margin-top:2rem}a{color:#0969da}
+footer{margin-top:3rem;font-size:.85rem;color:#666}</style></head><body>
+<h1>プライバシーポリシー</h1>
+<p>最終更新: 2026年9月4日</p>
+
+<p>info-collector（以下「本アプリ」）は、作者個人が自分自身のために運用する自動化ツールです。
+本アプリの利用者は作者本人のみであり、第三者に配布・提供していません。</p>
+
+<h2>取得する Google ユーザーデータ</h2>
+<p>本アプリは Google Drive API を使用し、次の範囲でのみ利用者自身の Google ドライブに
+アクセスします。</p>
+<ul>
+  <li><strong>書き込み</strong>: 生成した要約ファイル（Markdown、テキスト、HTML）を、
+      利用者が指定した専用フォルダへ保存します。</li>
+  <li><strong>読み取り</strong>: 直前に書き込んだファイルのチェックサムを取得し、
+      内容が正しく保存されたかを検証する目的でのみ行います。</li>
+</ul>
+<p>本アプリは、上記フォルダ以外のファイルを閲覧、取得、変更、削除しません。</p>
+
+<h2>データの保存と送信</h2>
+<p>認証情報（OAuth トークン）は、作者が管理する仮想サーバー上のファイルに、
+所有者本人のみ読み書き可能な権限で保存されます。</p>
+<p>本アプリは、Google ユーザーデータを外部のサーバーやサービスへ送信しません。
+生成された要約は利用者自身の Google ドライブと、作者が管理する同サーバー上にのみ
+保存されます。</p>
+<p>本アプリは、Google ユーザーデータを第三者へ販売、譲渡、共有しません。
+広告目的での利用も行いません。</p>
+
+<h2>要約の生成について</h2>
+<p>要約の生成には言語モデルを使用しますが、入力するのは公開されている技術記事の
+題名と要旨、および利用者の関心事を記した設定ファイルのみです。
+<strong>Google ドライブから読み取った内容を言語モデルへ渡すことはありません。</strong></p>
+
+<h2>データの削除</h2>
+<p>利用者は、Google アカウントのセキュリティ設定からいつでも本アプリのアクセス権を
+取り消すことができます。取り消し後、本アプリは Google ドライブへ一切アクセスできなくなります。
+生成済みのファイルは利用者自身がドライブ上で削除できます。</p>
+
+<h2>お問い合わせ</h2>
+<p>本ポリシーに関するお問い合わせは、GitHub リポジトリの Issue にてお願いします。</p>
+
+<footer><a href="./index.html">ホーム</a> ・ <a href="./terms.html">利用規約</a></footer>
+</body></html>
